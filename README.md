@@ -9,8 +9,8 @@ Izradite web stranicu prema slijedećim smjernicama:
    Definirati zaglavlje html dokumenta sa pripadnim meta podacima, naslovom te kodnom stranicom.
    Oblikovati tekst korištenjem oznaka i atributa za:
    
-    - oblikovanje naslova, odlomka, novog reda,
-    - podebljanje i nakošenje teksta,
-    - oblikovanje posebnih dijelova teksta (primjerice copyright)
-    - dodati dva linka gdje je prvi obični link na web stranicu, a drugi link predstavlja korištenje sidrišta.
+       - oblikovanje naslova, odlomka, novog reda,
+       - podebljanje i nakošenje teksta,
+       - oblikovanje posebnih dijelova teksta (primjerice copyright)
+       - dodati dva linka gdje je prvi obični link na web stranicu, a drugi link predstavlja korištenje sidrišta.
 ____________________________
