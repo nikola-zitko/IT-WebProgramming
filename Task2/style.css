@@ -1,0 +1,13 @@
+body{
+    background-image: url(http://www.wallmaya.com/wp-content/uploads/2016/05/wood-floor-textures-cool-hd.jpg);
+    color: black; font-size: 20px; font-family: fantasy;
+}
+#smjer{
+    color: rgb(0,0,255);
+}
+#smjer ul {
+    color: rgb(0,0,0);
+}
+img{
+    margin-top: 20px;
+}
