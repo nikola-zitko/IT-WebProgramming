@@ -1,7 +1,7 @@
 # IT-WebProgramming
 College tasks on HTML, CSS, JS, ...
 ____________________________
-HTML Laboratorijska vježba 1
+### HTML Laboratorijska vježba 1
 ____________________________
 Izradite web stranicu prema slijedećim smjernicama:
 
@@ -14,7 +14,7 @@ Izradite web stranicu prema slijedećim smjernicama:
     - oblikovanje posebnih dijelova teksta (primjerice copyright)
     - dodati dva linka gdje je prvi obični link na web stranicu, a drugi link predstavlja korištenje sidrišta.
 ____________________________
-HTML Laboratorijska vježba 2
+### HTML Laboratorijska vježba 2
 ____________________________
 Izradite web stranicu prema slijedećim smjernicama:
 
