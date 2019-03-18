@@ -27,3 +27,10 @@ Izradite web stranicu prema slijedećim smjernicama:
 ____________________________
 ### HTML Laboratorijska vježba 3
 ____________________________
+Izradite web stranicu prema sljedećim smjernicama:
+
+    - Korištenjem SVG-a nacrtajte sljedeće likove i jedan po želji
+    - U središnjem dijelu stranice izraditi tablicu prema vašem trenutnom tjednom rasporedu
+
+        - Potrebno je pripaziti kod definiranja rasporeda da većina predavanja i vježbi traju više od jednog sata (koristiti rowspan/colspan)
+        - Oblikovati tablicu sa CSS-om
