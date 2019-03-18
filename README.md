@@ -24,14 +24,15 @@ Izradite web stranicu prema slijedećim smjernicama:
       te prema odabranom smjeru studiranja
     - Stavke smjera prikazati sa modrom bojom (RGB zapis)
     - Korištenjem slike (slika.png) kao slikovne mape, prikažite prema pripadnim koordinatama prikazane likove
+![slikovnamapa.png](https://github.com/nikola-zitko/IT-WebProgramming/blob/master/Assets/slikovnamapa.png)
 ____________________________
 ### HTML Laboratorijska vježba 3
 ____________________________
 Izradite web stranicu prema sljedećim smjernicama:
 
     - Korištenjem SVG-a nacrtajte sljedeće likove i jedan po želji
-![SVG](https://github.com/nikola-zitko/IT-WebProgramming/blob/master/Assets/SVG.png)
-    
+![SVG.png](https://github.com/nikola-zitko/IT-WebProgramming/blob/master/Assets/SVG.png)
+
     - U središnjem dijelu stranice izraditi tablicu prema vašem trenutnom tjednom rasporedu
         - Potrebno je pripaziti kod definiranja rasporeda da većina predavanja i vježbi traju više od jednog sata
         (koristiti rowspan/colspan)
