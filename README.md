@@ -31,8 +31,8 @@ Izradite web stranicu prema sljedećim smjernicama:
 
     - Korištenjem SVG-a nacrtajte sljedeće likove i jedan po želji
 ![SVG](https://github.com/nikola-zitko/IT-WebProgramming/blob/master/Assets/SVG.png)
+    
     - U središnjem dijelu stranice izraditi tablicu prema vašem trenutnom tjednom rasporedu
-
         - Potrebno je pripaziti kod definiranja rasporeda da većina predavanja i vježbi traju više od jednog sata
         (koristiti rowspan/colspan)
         - Oblikovati tablicu sa CSS-om
