@@ -1,0 +1,26 @@
+.div1{
+    width: 325px;
+}
+
+div{
+    border-style: double;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+    width: 700px;
+}
+body{
+    font-family: fantasy;
+}
+h1{
+    padding-left: 10px;
+}
+td{
+    padding-top: 3px;
+    padding-left: 5px;
+}
+ul{
+    list-style: none;
+    padding: 3px;
+}
