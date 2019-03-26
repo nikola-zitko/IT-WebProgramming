@@ -37,3 +37,8 @@ Izradite web stranicu prema sljedećim smjernicama:
         - Potrebno je pripaziti kod definiranja rasporeda da većina predavanja i vježbi traju više od jednog sata
         (koristiti rowspan/colspan)
         - Oblikovati tablicu sa CSS-om
+____________________________
+### HTML Laboratorijska vježba 4
+____________________________
+Oblikovati web stranicu koja će prikazivati sadržaj i kontrole forme koje su potrebne za registraciju korisnika na web dućanu. 
+Forma bi trebala omogućiti i personalizaciju prema željenim proizvodima.
