@@ -40,5 +40,16 @@ Izradite web stranicu prema sljedećim smjernicama:
 ____________________________
 ### HTML Laboratorijska vježba 4
 ____________________________
-Oblikovati web stranicu koja će prikazivati sadržaj i kontrole forme koje su potrebne za registraciju korisnika na web dućanu. 
+Oblikovati web stranicu koja će prikazivati sadržaj i kontrole forme koje su potrebne za registraciju korisnika na web dućanu.
 Forma bi trebala omogućiti i personalizaciju prema željenim proizvodima.
+____________________________
+### HTML Laboratorijska vježba 5
+____________________________
+Izradite web stranicu prema sljedećim smjernicama:
+
+    - Temu web stranice odabrati po želji
+    - Shemu web stranice definirajte svojstvima float i clear, a shema bi trebala  sadržavati uobičajena područja
+    (zaglavlje, središnji dio i podnožje)
+    - Oblikovati horizontalnu navigaciju
+    - Oblikovati web stranicu sa CSS-om
+    - CSS definirati u odvojenoj datoteci
