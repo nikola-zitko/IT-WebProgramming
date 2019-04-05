@@ -4,13 +4,6 @@
     height: 200px;
 }
 
-.float{
-    float: left;
-    width: 300px;
-    height: 200px;
-    border: 1px grey;
-}
-
 .clearboth{
     clear: both;
 }
@@ -22,7 +15,6 @@
 }
 
 body{
-    padding-left: 50px;
     font-family: fantasy;
 }
 
@@ -30,22 +22,28 @@ h1{
     padding-left: 50px;
 }
 
-ul{
-    padding: 0px;
-    margin: 0px;
+nav{
+    width: 100%;
+    background-color: green;
 }
 
-ul li{
+#nav_ul{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#nav_ul li{
     float: left;
     list-style-type: none;
 }
 
-ul li a{
+#nav_ul li a{
     padding-top: 4px;
     text-decoration: none;
 }
 
-ul li a:link, a:visited{
+#nav_ul li a:link, a:visited{
     width: 100px;
     height: 20px;
     display: block;
@@ -54,7 +52,7 @@ ul li a:link, a:visited{
     padding-left: 10px;
 }
 
-ul li a:hover{
+#nav_ul li a:hover{
     background-color: black;
     color: white;
 }
