@@ -34,8 +34,8 @@ Izradite web stranicu prema sljedećim smjernicama:
 ![SVG.png](https://github.com/nikola-zitko/IT-WebProgramming/blob/master/Assets/SVG.png)
 
     - U središnjem dijelu stranice izraditi tablicu prema vašem trenutnom tjednom rasporedu
-        - Potrebno je pripaziti kod definiranja rasporeda da većina predavanja i vježbi traju više od jednog sata
-        (koristiti rowspan/colspan)
+        - Potrebno je pripaziti kod definiranja rasporeda da većina predavanja 
+        i vježbi traju više od jednog sat (koristiti rowspan/colspan)
         - Oblikovati tablicu sa CSS-om
 ____________________________
 ### HTML Laboratorijska vježba 4
@@ -48,8 +48,8 @@ ____________________________
 Izradite web stranicu prema sljedećim smjernicama:
 
     - Temu web stranice odabrati po želji
-    - Shemu web stranice definirajte svojstvima float i clear, a shema bi trebala  sadržavati uobičajena područja
-    (zaglavlje, središnji dio i podnožje)
+    - Shemu web stranice definirajte svojstvima float i clear, 
+    a shema bi trebala  sadržavati uobičajena područja (zaglavlje, središnji dio i podnožje)
     - Oblikovati horizontalnu navigaciju
     - Oblikovati web stranicu sa CSS-om
     - CSS definirati u odvojenoj datoteci
