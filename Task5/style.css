@@ -1,0 +1,60 @@
+#spremnik{
+    border: 1px black;
+    width: 900px;
+    height: 200px;
+}
+
+.float{
+    float: left;
+    width: 300px;
+    height: 200px;
+    border: 1px grey;
+}
+
+.clearboth{
+    clear: both;
+}
+
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body{
+    padding-left: 50px;
+    font-family: fantasy;
+}
+
+h1{
+    padding-left: 50px;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li{
+    float: left;
+    list-style-type: none;
+}
+
+ul li a{
+    padding-top: 4px;
+    text-decoration: none;
+}
+
+ul li a:link, a:visited{
+    width: 100px;
+    height: 20px;
+    display: block;
+    color: white;
+    background-color: grey;
+    padding-left: 10px;
+}
+
+ul li a:hover{
+    background-color: black;
+    color: white;
+}
