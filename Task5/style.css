@@ -19,7 +19,7 @@ body{
 }
 
 div{
-    overflow: scroll;
+    overflow: visible;
 }
 
 img{
