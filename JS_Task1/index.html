@@ -1,57 +1,65 @@
 <!DOCTYPE html>
 <head>
     <script>
-    var i, zbroj = 0;
-    for(i=50;i>=10;i--){
-        var temp = (i%5==0 && i%2==0) ? 1 : 2;
-        if(temp == 1){
-            zbroj+=i;
+        var zbroj = 0;
+        for(let i=50;i>=10;i--){
+            let temp = (i%5==0 && i%2==0) ? 1 : 2;
+            if(temp == 1){
+                zbroj += i;
+            }
+            else{
+                document.write(i + " ");
+            }
         }
-        else{
-            document.write(i + " ");
-        }
-    }
-    document.write("<br>Zbroj brojeva je " + zbroj + "<br>");
+        document.write("<br>Zbroj sa for je " + zbroj + "<br>");
 
-    i=50;
-    zbroj=0;
-    while(i>=10){
-        var temp = (i%5==0 && i%2==0) ? 1 : 2;
-        if(temp == 1){
-            zbroj+=i;
+        var i = 50;
+        zbroj = 0;
+        while(i>=10){
+            let temp = (i%5==0 && i%2==0) ? 1 : 2;
+            if(temp == 1){
+                zbroj += i;
+            }
+            else{
+                document.write(i + " ");
+            }
+            i--;
         }
-        else{
-            document.write(i + " ");
-        }
-        i--;
-    }
-    document.write("<br>Zbroj brojeva je " + zbroj + "<br>");
+        document.write("<br>Zbroj sa while je " + zbroj + "<br>");
 
-    studij = "IT";
-    switch (studij){
-        case "IT":
-            document.write("Informacijska tehnologija <br>")
-            break;
-        case "RIF":
-            document.write("Racunovodstvo i financije <br>")
-            break;
-        case "KS":
-            document.write("Konstrukcijsko strojarstvo <br>")
-            break;
-        case "TP":
-            document.write("Trgovinsko poslovanje <br>")
-            break;
-        default:
-            document.write("Studij ne postoji <br>")
-    }
+        studij = prompt("Unesite kraticu studija: ");
+        switch(studij){
+            case "IT":
+                document.write("Informacijska tehnologija<br>");
+                break;
+            case "RIF":
+                document.write("Racunovodstvo i financije<br>");
+                break;
+            case "KS":
+                document.write("Konstrukcijsko strojarstvo<br>");
+                break;
+            case "TP":
+                document.write("Trgovinsko poslovanje<br>");
+                break;
+            default:
+                document.write("Studij ne postoji");
 
-    var trokut = function(x,y,z){
-        return x+y+z;
-    }
-    document.write("Opseg trokuta je " + trokut(5,4,4));
+            }
+
+        var x = parseInt(prompt("Unesite x: "));
+        var y = parseInt(prompt("Unesite y: "));
+        var z = parseInt(prompt("Unesite z: "));
+
+        var opseg = function(x,y,z){
+            return x+y+z;
+        };
+
+        document.write("Opseg trokuta je " + opseg(x,y,z));
+
 
     </script>
 </head>
+
 <body>
 
 </body>
