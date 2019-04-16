@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <script>
+    var i, zbroj = 0;
+    for(i=50;i>=10;i--){
+        var temp = (i%5==0 && i%2==0) ? 1 : 2;
+        if(temp == 1){
+            zbroj+=i;
+        }
+        else{
+            document.write(i + " ");
+        }
+    }
+    document.write("<br>Zbroj brojeva je " + zbroj + "<br>");
+
+    i=50;
+    zbroj=0;
+    while(i>=10){
+        var temp = (i%5==0 && i%2==0) ? 1 : 2;
+        if(temp == 1){
+            zbroj+=i;
+        }
+        else{
+            document.write(i + " ");
+        }
+        i--;
+    }
+    document.write("<br>Zbroj brojeva je " + zbroj + "<br>");
+
+    studij = "IT";
+    switch (studij){
+        case "IT":
+            document.write("Informacijska tehnologija <br>")
+            break;
+        case "RIF":
+            document.write("Racunovodstvo i financije <br>")
+            break;
+        case "KS":
+            document.write("Konstrukcijsko strojarstvo <br>")
+            break;
+        case "TP":
+            document.write("Trgovinsko poslovanje <br>")
+            break;
+        default:
+            document.write("Studij ne postoji <br>")
+    }
+
+    var trokut = function(x,y,z){
+        return x+y+z;
+    }
+    document.write("Opseg trokuta je " + trokut(5,4,4));
+
+    </script>
+</head>
+<body>
+
+</body>
