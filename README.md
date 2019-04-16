@@ -14,7 +14,7 @@ Izradite web stranicu prema slijedećim smjernicama:
     - oblikovanje posebnih dijelova teksta (primjerice copyright)
     - dodati dva linka gdje je prvi obični link na web stranicu, a drugi link predstavlja korištenje sidrišta.
 ____________________________
-### HTML Laboratorijska vježba 2
+### HTML/CSS Laboratorijska vježba 2
 ____________________________
 Izradite web stranicu prema slijedećim smjernicama:
 
@@ -26,7 +26,7 @@ Izradite web stranicu prema slijedećim smjernicama:
     - Korištenjem slike (slika.png) kao slikovne mape, prikažite prema pripadnim koordinatama prikazane likove
 ![slikovnamapa.png](https://github.com/nikola-zitko/IT-WebProgramming/blob/master/Assets/slikovnamapa.png)
 ____________________________
-### HTML Laboratorijska vježba 3
+### HTML/CSS Laboratorijska vježba 3
 ____________________________
 Izradite web stranicu prema sljedećim smjernicama:
 
@@ -38,12 +38,12 @@ Izradite web stranicu prema sljedećim smjernicama:
         i vježbi traju više od jednog sat (koristiti rowspan/colspan)
         - Oblikovati tablicu sa CSS-om
 ____________________________
-### HTML Laboratorijska vježba 4
+### HTML/CSS Laboratorijska vježba 4
 ____________________________
 Oblikovati web stranicu koja će prikazivati sadržaj i kontrole forme koje su potrebne za registraciju korisnika na web dućanu.
 Forma bi trebala omogućiti i personalizaciju prema željenim proizvodima.
 ____________________________
-### HTML Laboratorijska vježba 5
+### HTML/CSS Laboratorijska vježba 5
 ____________________________
 Izradite web stranicu prema sljedećim smjernicama:
 
@@ -53,3 +53,13 @@ Izradite web stranicu prema sljedećim smjernicama:
     - Oblikovati horizontalnu navigaciju
     - Oblikovati web stranicu sa CSS-om
     - CSS definirati u odvojenoj datoteci
+____________________________
+### JavaScript Laboratorijska vježba 1
+____________________________
+
+Korištenjem petlji for i while, omogućiti zbrajanje brojeva od 50 do 10 koji su djeljivi i sa brojem 2 i sa brojem 5, 
+a oni koji nisu ispisati ih. U jednoj od petlji, potrebno je uvjetni izraz definirati sa ternarnim operatorom.
+Korištenjem switch strukture prikazati puni naziv studija za određene skraćene nazive (primjerice IT, RIF, KS, TP).
+Definirati literal funkcije koji prima tri broja i koji računa opseg trokuta.
+Dobiveni rezultat je povratna vrijednost funkcije koju je potrebno ispisati na stranici.
+
