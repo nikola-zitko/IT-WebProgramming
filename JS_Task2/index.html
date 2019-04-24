@@ -8,8 +8,9 @@
                 console.log("Zbroj je "+(a+b)+" umnožak je "+(a*b));
             }
         }
+
         zbroj_umn(5,2);
-/*
+
         operator = prompt("Unesite operator *,/,+,-");
 
         broj1 = prompt("Unesite prvi broj:");
@@ -28,19 +29,16 @@
             console.log(callback(x,y));
         }
 
-
-        operacija(operator, broj1, broj2);
-*/
-        function pozdrav(){
-            ime = prompt("Unesite ime:");
+        ime = prompt("Unesite ime:");
+        poz1 = prompt("Unesite pozdrav:");
+        function pozdrav(ime, poz1){
             function poz(){
-                poz = prompt("Unesite pozdrav:");
-                return poz+ime;
+                console.log(poz1+" "+ime);
             }
+            return poz;
         }
-
-        var pozClosure = pozdrav();
-        console.log(pozClosure());
+        var poz2 = pozdrav(ime, poz1);
+        poz2();
 
 
     </script>
