@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"/>
+    <meta title="JS vježba 2"/>
+    <script>
+        function zbroj_umn(a,b){
+            if(isFinite(a) && isFinite(b)){
+                console.log("Zbroj je "+(a+b)+" umnožak je "+(a*b));
+            }
+        }
+        zbroj_umn(5,2);
+/*
+        operator = prompt("Unesite operator *,/,+,-");
+
+        broj1 = prompt("Unesite prvi broj:");
+        broj2 = prompt("Unesite drugi broj:");
+        broj1=broj1*1;
+        broj2=broj2*1;
+
+        switch(operator){
+            case '+': operacija(function(broj1, broj2){return broj1+broj2;}, broj1, broj2); break;
+            case '-': operacija(function(broj1, broj2){return broj1-broj2;}, broj1, broj2); break;
+            case '*': operacija(function(broj1, broj2){return broj1*broj2;}, broj1, broj2); break;
+            case '/': operacija(function(broj1, broj2){return broj1/broj2;}, broj1, broj2); break;
+        }
+
+        function operacija(callback, x, y){
+            console.log(callback(x,y));
+        }
+
+
+        operacija(operator, broj1, broj2);
+*/
+        function pozdrav(){
+            ime = prompt("Unesite ime:");
+            function poz(){
+                poz = prompt("Unesite pozdrav:");
+                return poz+ime;
+            }
+        }
+
+        var pozClosure = pozdrav();
+        console.log(pozClosure());
+
+
+    </script>
+</head>
+<body>
+
+</body>
