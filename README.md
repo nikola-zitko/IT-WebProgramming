@@ -78,6 +78,7 @@ Korištenjem currying i arrow funkcija, omogućite odvojeno definiranje pozdrava
 Neka pozdrav ima fiksni dio koji prvotno definirate, a kasnije šaljete samo promjenjivi dio. Primjerice, const poruka = pozdrav("Kolegij i ects bodovi:"); poruka("MUP")("6");, a ispisati će "Kolegij i ects bodovi: MUP, 6". 
 Za ispis koristiti string predloške ${}. (koristiti metode niza) 
 Kreirati niz koji će sadržavati 20 slučajno generiranih brojeva u intervalu od 10 do 100, zaokruženih na najbliži cijeli broj.
+
     - Potrebno je u novi niz izdvojiti brojeve između 50 i 90.
     - Elemente izdvojenog niza je potrebno sortirati od manjeg prema većem i ispisati ih.
     - Iz sortiranog niza je potrebno izbrisati najmanji i najveći broj.
