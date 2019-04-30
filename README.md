@@ -59,7 +59,9 @@ ____________________________
 
 Korištenjem petlji for i while, omogućiti zbrajanje brojeva od 50 do 10 koji su djeljivi i sa brojem 2 i sa brojem 5,
 a oni koji nisu ispisati ih. U jednoj od petlji, potrebno je uvjetni izraz definirati sa ternarnim operatorom.
+
 Korištenjem switch strukture prikazati puni naziv studija za određene skraćene nazive (primjerice IT, RIF, KS, TP).
+
 Definirati literal funkcije koji prima tri broja i koji računa opseg trokuta.
 Dobiveni rezultat je povratna vrijednost funkcije koju je potrebno ispisati na stranici.
 ____________________________
@@ -67,7 +69,9 @@ ____________________________
 ____________________________
 
 Definirati funkciju koja za poslana dva broja, računa njihov zbroj i umnožak. Ispitati poslane vrijednosti sa funkcijom isFinite. Povratne vrijednosti funkcije su zbroj i umnožak. Povratne vrijednosti je potrebno ispisati u konzoli.
+
 Napisati program gdje korištenjem naredbe prompt korisnik unosi željenu operaciju (+ - * /) i dva broja. Temeljem odabrane operacije poziva se funkcija kojoj se šalje callback funkcija i dva broja. Callback funkcija ispisuje rezultat odabrane operacije.
+
 Napisati program koji ovisno o poslanom tekstu poruke i imenu osobe (šalju se odvojeno), oblikuje prigodni pozdrav. Koristiti closure funkciju.
 ____________________________
 ### JavaScript Laboratorijska vježba 3
