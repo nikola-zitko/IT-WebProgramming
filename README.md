@@ -91,3 +91,20 @@ Kreirati niz koji će sadržavati 20 slučajno generiranih brojeva u intervalu o
     - Elemente izdvojenog niza je potrebno sortirati od manjeg prema većem i ispisati ih.
     - Iz sortiranog niza je potrebno izbrisati najmanji i najveći broj.
     - Izračunati i ispisati zbroj elemenata.
+
+____________________________
+### JavaScript Laboratorijska vježba 4
+____________________________
+Metode stringa
+
+    Pridijeliti stringu tekst „cascading style sheets“
+    Izdvojiti prva slova svih riječi i pretvoriti ih u velika slova kako bi se dobila kratica (CSS)
+    Dobivenu kraticu dodati na kraj stringa unutar zagrada primjerice "casdading style sheets (CSS)"
+    Ispisati koliko novo dobiveni string ima ukupno slova s  
+
+Regularni izrazi
+    
+    Napisati RI koji prepoznaje heksadecimalni zapis postavljene boje (primjer ispravnih zapisa su #aae31c, #abc).
+    Napisati RI koji će testirati da li mail odgovara slijedećem uzorku ime_posiljatelja@nesto.com, odnosno prije znaka @ dozvoljeni su samo mala slova i znak _, a poslije znaka @ ime domene nesto.com, gdje je iza točke dozvoljeno 2 do 3 znaka, .hr, .edu, .gov i slično
+    Napisati RI koji testira upisane brojeve, odnosno broj može biti pozitivan i negativan cijeli i decimalni broj. (primjeri ispravnih brojeva su 4, -4, 4.4, -4.4, a primjeri neispravnih brojeva su 04, -04, 04.4, -04.4.
+
