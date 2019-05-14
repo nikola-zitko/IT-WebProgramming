@@ -6,6 +6,55 @@
     </head>
 
     <body>
-        
+        <script>
+            //Metode stringa
+            var string = 'cascading style sheets';
+            var novi = '';
+            var novicss = '';
+            var broj = 0;
+
+            novi = string.split(' ');
+            
+            for (el of novi)
+                novicss += el[0].toUpperCase();
+
+            console.log(novicss);
+            novicss = `(${novicss})`;
+            console.log(novicss);
+
+            for (i  of novicss){
+                if(i == 'S')
+                    broj+=1;
+            }
+            console.log("Broj slova 'S' je ", broj);
+            
+
+            //Regularni izrazi
+            var hex = "#fff333";
+            var hex2 = "99HH3D#";
+            var RegIz1 = /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/;
+            console.log(RegIz1.test(hex));
+            console.log(RegIz1.test(hex2));
+
+            var mail1 = "nikola@zitko.com";
+            var mail2 = "TEST.hr@com"
+
+            var RegIz2 = /^[a-z_]+@([a-z]+\.)+[a-z]{2,3}$/;
+
+            console.log(RegIz2.test(mail1));
+            console.log(RegIz2.test(mail2));
+            
+            var broj1 = "-4.4";
+            var broj2 = "04.4";
+            var broj3 = "0.4";
+
+
+            var RegIz3 = /^[-]?([0-9]|[1-9][0-9]+)(\.[0-9]+?)?$/;
+
+            console.log(RegIz3.test(broj1));
+            console.log(RegIz3.test(broj2));
+            console.log(RegIz3.test(broj3));
+
+        </script>
     </body>
 </html>
