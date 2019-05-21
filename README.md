@@ -108,3 +108,9 @@ Regularni izrazi
     Napisati RI koji će testirati da li mail odgovara slijedećem uzorku ime_posiljatelja@nesto.com, odnosno prije znaka @ dozvoljeni su samo mala slova i znak _, a poslije znaka @ ime domene nesto.com, gdje je iza točke dozvoljeno 2 do 3 znaka, .hr, .edu, .gov i slično
     Napisati RI koji testira upisane brojeve, odnosno broj može biti pozitivan i negativan cijeli i decimalni broj. (primjeri ispravnih brojeva su 4, -4, 4.4, -4.4, a primjeri neispravnih brojeva su 04, -04, 04.4, -04.4.
 
+_____________________________
+### JavaScript Laboratorijska vježba 5
+_____________________________
+Nadogradite laboratorijsku vježbu "HTML/CSS Laboratorijska vježba 4" sa skriptom koja će provjeravati upisane podatke i koja će omogućiti izravno ispisivanje vrsti pogreški pri njihovom nastajanju. 
+Potrebno je omogućiti i ispisivanje savjeta pri ispunjavanju kontrola formi. 
+Ukoliko su svi podaci ispravno upisani, ispisati podatke koje je korisnik upisao.
