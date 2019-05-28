@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Vježba 4">
+        <title>Forma</title>
+        <meta name="author" content="Nikola Žitko">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="script.js"></script>
+        <style>
+            div{
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form name="Forma web dućana" method="post" enctype="multipart/form-data">
+            <h1>Forma</h1>
+            <div class="div1">
+                <table>
+                    <tr>
+                        <td>
+                            Ime*: <br/>
+                            Prezime*: <br/>
+                            Adresa stanovanja: <br/>
+                            Grad: <br/>
+                            e-mail*: <br/>
+                        </td>
+                        <td>
+                                <input type="text" id="ime" placeholder="Upisite ime" onkeyup="imeProvjera()" required/><br/>
+                                <input type="text" id="prezime" placeholder="Upisite prezime" onkeyup="prezimeProvjera()" required/><br/>
+                                <input type="text" id="adresa" placeholder="Upisite adresu" onkeyup="adresaProvjera()" /><br/>
+                                <input type="text" id="grad" placeholder="Upisite ime grada" onkeyup="gradProvjera()"/><br/>
+                                <input type="email" id="email" placeholder="Unesite e-mail" onkeyup="mailProvjera()" required/> <br/>
+                        </td>
+                        <td>
+                                <div id="pIme">_</div>
+                                <div id="pPrezime">_</div>
+                                <div id="pAdresa">_</div>
+                                <div id="pGrad">_</div>
+                                <div id="pMail">_</div>
+                        </td>
+                    </tr>
+                </table>
+                <h5>Polja oznacena sa zvjezdicom su obavezna!</h5>
+            </div>
+            <div>
+                <h3>Molimo vas da odgovorite na sljedeća pitanja kako bi vam personalizirali prikazivanje proizvoda.</h3>
+                <p>Da li vas više zanima vrt ili ostali hobby poslovi?</p>
+                <ul>
+                    <li><input type="radio" name="radio2" value="vrt"/> Vrt</li>
+                    <li><input type="radio" name="radio2" value="ostalo"/> Ostalo</li>
+                </ul>
+                <p>Koje vas kategorije proizvoda najviše zanimaju?</p>
+                <ul>
+                    <li><input type="checkbox" name="proizvod" value="vrtlaski alat"/> Vrtlarski alat
+                    </li>
+
+                    <li><input type="checkbox" name="proizvod" value="sadnice"/> Sadnice cvijeća
+                    </li>
+
+                    <li><input type="checkbox" name="proizvod" value="alata"/> Ručni alat
+                    </li>
+
+                    <li><input type="checkbox" name="proizvod" value="modeli"/> Makete i modeli
+                    </li>
+
+                    <li><input type="checkbox" name="proizvod" value="drvo"/>
+                    Drvo i drveni predmeti
+                    </li>
+                </ul>
+
+
+                <p>Da li želite primati obavijesti na email o popustima i akcijama?</p>
+                <input type="radio" name="radio1" value="da"/> Da
+                <input type="radio" name="radio1" value="ne"/> Ne
+
+                <p>Koliko ste sretni s našom uslugom?<br/>
+                :(   <input type="range" name="sreca"/>   :D</p>
+
+                <input type="submit" name="submit" value="Pošalji"/>
+            </div>
+        </form>
+    </body>
+</html>
