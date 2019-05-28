@@ -86,3 +86,23 @@ function mailProvjera() {
     }
 
   }
+
+  function provjera() {
+      var a, b, c, d, e;
+      a = document.getElementById("ime").value;
+      b = document.getElementById("prezime").value;
+      d = document.getElementById("grad").value;
+      c = document.getElementById("adresa").value;
+      e = document.getElementById("email").value;
+      var RegIz1 = /^[A-Z][a-zA-Z]+$/;
+      var RegIz2 = /^[A-Z][a-zA-Z]+(\s[0-9]{1,3})$/;
+      var RegIz3 = /^[A-Z][a-zA-Z]+(\s[a-zA-Z]+)?$/;
+      var RegIz4 = /^[a-z_]+@([a-z]+\.)+[a-z]{2,3}$/;
+      document.getElementById("rez").innerHTML = "";
+      if(RegIz1.test(a) == true && RegIz1.test(b) == true && RegIz2.test(c) == true && RegIz3.test(d) == true && RegIz4.test(e) == true){
+          document.getElementById("rez").innerHTML = `${a}, ${b}, ${c}, ${d}, ${e}.`;
+      }
+     
+    
+      
+  }
